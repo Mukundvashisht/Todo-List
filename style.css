@@ -1,0 +1,167 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu',sans-serif;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 55px;
+    background-color: rgb(49, 59, 70);
+    color: white;
+}
+
+nav li{
+    padding: 0 14px;
+    /* font-weight: bold; */
+}
+
+.brand img{
+    height: 69px;
+    width: 70px;
+    margin-top: 2px;
+    padding: 0 4px;
+    border-radius: 50%
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 21px;
+}
+
+.container{
+    margin: 10px auto;
+    padding: 40px;
+    width: 80%;
+    background-color: rgb(225, 224, 238);
+    /* color: white; */ 
+}
+
+h1{
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    margin: -30px;
+}
+
+.form-title{
+    width: 95%;
+    padding: 7px 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.title-text{
+    color: rgb(116, 97, 97);
+}
+
+.form-description{
+    width: 95%;
+    padding: 35px 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.Add{
+    background-color: rgb(13,110,253);
+    color: white;
+    border-radius: 6px;
+    border: none;
+    padding: 9px 13px;
+    font-size: 15px;
+    box-shadow: 0 5px #999;
+}
+
+.Add:hover{
+    background-color: rgb(7, 84, 199);
+}
+
+.Add:active{
+    background-color: rgb(7, 84, 199);
+    transform: translateY(4px);
+    box-shadow: 0 0px #999
+}
+
+.Clear{
+    background-color: rgb(13,110,253);
+    color: white;
+    border-radius: 6px;
+    border: none;
+    padding: 9px 13px;
+    font-size: 15px;
+    box-shadow: 0 5px #999;
+}
+
+.Clear:hover{
+    background-color: rgb(7, 84, 199);
+}
+
+.Clear:active{
+    background-color: rgb(7, 84, 199);
+    transform: translateY(4px);
+    box-shadow: 0 0px #999
+}
+
+h2{
+    margin: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+}
+
+.Table{
+    border-collapse: collapse;
+    width: 100%;
+    /* border: 1px solid rgb(0, 0, 0); */
+}
+
+th {
+    border: 0px solid rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Ubuntu',sans-serif;
+}
+
+td{
+    padding: 5px;
+    border: 0px solid rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+}
+
+table#table1{
+    table-layout: auto;
+    /* margin-bottom: 100px 100px; */
+    /* padding: 100; */
+}
+.btn{
+    background-color: rgb(13,110,253);
+    color: white;
+    border-radius: 6px;
+    border: none;
+    padding: 9px 13px;
+    font-size: 15px;
+    box-shadow: 0 5px #999;
+}
+
+.btn:hover{
+    background-color: rgb(7, 84, 199);
+}
+
+.btn:active{
+    background-color: rgb(7, 84, 199);
+    transform: translateY(4px);
+    box-shadow: 0 0px #999
+}

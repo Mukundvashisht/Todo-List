@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Todo List</title>
+</head>
+<body>
+    <nav>
+        <li class="brand">Todo List</li>
+        <li>Home</li>
+        <li>About</li>
+    </nav>
+    <div class="container">
+        <h1>TODO LIST</h1><br><br><br>
+        <div class="input-group">
+            <label for="Title">Title</label><br>
+            <input type="text" class="form-title" id="Title">
+            <div class="title-text">Add an item to the List.</div>
+        </div><br><br>
+        <div class="input-group">
+            <label for="Description">Description</label><br>
+            <textarea type="text" class="form-description" id="Description" rows="4"></textarea>
+        </div>
+        <button id="add" type="submit" class="Add" onclick="Add()">Add to List</button>
+        <button id="clear" type="submit" class="Clear" onclick="clearStorage()">Clear</button>
+        <div id="items">
+            <h2>Your List</h2>
+            <table class="Table" id="table1">
+                <thead>
+                    <tr>
+                        <th scope="col">S.No.</th>
+                        <th scope="col">Item Title</th>
+                        <th scope="col">Item Description</th>
+                        <th scope="col">Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                    <tr>
+                        <!-- <th scope="row">1</th>
+                        <td>Get a coffee</td>
+                        <td>You need a coffee as you are a coder</td>
+                        <td><button class="btn">Delete</button></btn-primary></td> -->
+                    </tr>
+                    <tr>
+                        <!-- <td scope="row">1</td>
+                        <td>Get a coffee</td>
+                        <td>You need a coffee as you are a coder</td>
+                        <td><button class="btn">Delete</button></btn-primary></td> -->
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
